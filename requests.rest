@@ -1,0 +1,34 @@
+
+GET http://localhost:3001/
+ 
+
+
+
+### 
+
+POST http://localhost:3001/createUser
+Content-Type: application/json
+
+{
+    "user": {
+        "name": "Gerald",
+        "email": "ghara1@gmail.com",
+        "password": "barglebee",
+        "date": 1709601943054
+    }
+}
+
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "user": {
+        "name": "Garrett",
+        "email": "ghara999@gmail.com",
+        "password": "barglebee",
+        "date": 1709601943054
+    }
+}

@@ -1,0 +1,13 @@
+.form {
+  width: 300px;
+  min-height: 350px;
+  text-align:left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-
